@@ -7,9 +7,20 @@ The video demonstrates an oscilliscopes reading of various waveforms, generated 
 
 ## [set_pulse.js]()
 
+[Video url]()
+
 Description:
 
 A simple javascript program which emits square pulses with a 20 millisecond period, and with a wave length of 1.5 milliseconds. 
+
+## [varying_duty_cycle.js](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-O11WL1D/blob/master/varying_duty_cycle.js)
+
+[Video url]()
+
+Description:
+
+A program which allows you to change the wave length of a square wave which has a 20 millisecond period. Pressing the A button will result in a %5 increase in the signals duty cycle, and Pressing the B button will result in a 5% decrease in the duty cycle.  
+
 
 
 

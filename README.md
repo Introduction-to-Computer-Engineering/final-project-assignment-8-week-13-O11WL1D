@@ -22,8 +22,13 @@ Description:
 A program which allows you to change the wave length of a square wave which has a 20 millisecond period. Pressing the A button will result in a %5 increase in the signals duty cycle, and Pressing the B button will result in a 5% decrease in the duty cycle.  
 
 
+## Exploring the servo.write function
 
+[Demo video](https://imgur.com/a/NhkryhD)
 
+[Code used]()
 
+Description: 
+Various tests exploring the servo.write function, which determined that only values passed to the function in the range of 0-180 were capable of changing the pulse width. Moreover, it was found that for each 45 degree increment to the passed value, the pulse width increases by 1.5 milliseconds.   
 
 

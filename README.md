@@ -9,6 +9,9 @@ The video demonstrates an oscilliscopes reading of various waveforms, generated 
 
 [Video url](https://imgur.com/a/Id4Lk6G)
 
+-We forgot to record a video for this one, but it would essentially look the same as the varying duty cycle program, but with only one setting.   
+
+
 Description:
 
 A simple javascript program which emits square pulses with a 20 millisecond period, and with a wave length of 1.5 milliseconds. 

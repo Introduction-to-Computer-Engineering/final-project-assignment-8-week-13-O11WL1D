@@ -7,7 +7,7 @@ The video demonstrates an oscilliscopes reading of various waveforms, generated 
 
 ## [set_pulse.js](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-O11WL1D/blob/master/set_pulse.js)
 
-[Video url](https://imgur.com/a/Id4Lk6G)
+[Video url]()
 
 Description:
 
@@ -15,7 +15,7 @@ A simple javascript program which emits square pulses with a 20 millisecond peri
 
 ## [varying_duty_cycle.js](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-O11WL1D/blob/master/varying_duty_cycle.js)
 
-[Video url]()
+[Video url](https://imgur.com/a/Id4Lk6G)
 
 Description:
 

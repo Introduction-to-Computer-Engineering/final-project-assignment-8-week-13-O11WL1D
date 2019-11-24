@@ -24,7 +24,7 @@ A program which allows you to change the wave length of a square wave which has 
 
 ## Exploring the servo.write function
 
-[Demo video](https://imgur.com/a/NhkryhD)
+[Demo video](https://imgur.com/a/OUNa16G)
 
 [Code used]()
 

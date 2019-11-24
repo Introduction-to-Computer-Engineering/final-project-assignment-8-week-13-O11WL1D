@@ -26,7 +26,7 @@ A program which allows you to change the wave length of a square wave which has 
 
 [Demo video](https://imgur.com/a/OUNa16G)
 
-[Code used]()
+[Code used](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-O11WL1D/blob/master/servo.js)
 
 Description: 
 Various tests exploring the servo.write function, which determined that only values passed to the function in the range of 0-180 were capable of changing the pulse width. Moreover, it was found that for each 45 degree increment to the passed value, the pulse width increases by 1.5 milliseconds.   

@@ -74,7 +74,7 @@ Writes a number using the i2c communication protocol to a random slave device ad
 
 A) : We captured a some of the address frame, and some of the sent data 
 
-B) : when nothing is connected, the i2c write function transmits the signal as usual. In some systems the ack bit indicates that a slave device did not recieve a signal or doesn't know how to parse data, and that a retransmission should occur. In our testing, a retransmission was not observed.
+B) : when nothing is connected, the i2c write function transmits the signal as usual. In some systems a high ack bit indicates that a slave device did not recieve a signal or doesn't know how to parse data, and that a retransmission should occur. In our testing, a retransmission was not observed, dispite not having a slave device to recieve the data.
 
 c) : The only difference between the three addresses captured patterns is the slave address near the start of the capture. 
 

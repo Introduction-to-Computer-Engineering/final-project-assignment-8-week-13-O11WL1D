@@ -42,4 +42,10 @@ The primary disadvantages of the uart protocol is that all connected devices mus
 
 The spi protocol's main disadvantage is that it each slave device requires 4 connections to the master device, which may get complicated in the case of multiple slave devices.  
 
+THe i2c protocol differs in the fact that each slave device is automatically synchronized with the master's clock signal, sent packets are faster due to not having a stop/start bit and that multiple devices can be connected, without bus contention.
+
+--SDA
+Line which sends actual data//data destination, ack bit, r/w bit
+--Scl
+line which features the master devices clock signal.
 

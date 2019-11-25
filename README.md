@@ -34,4 +34,12 @@ A program which allows you to change the wave length of a square wave which has 
 Description: 
 Various tests exploring the servo.write function, which determined that only values passed to the function in the range of 0-180 were capable of changing the pulse width. Moreover, it was found that for each 45 degree increment to the passed value, the pulse width increases by 1.5 milliseconds.   
 
+## i2c vs uart/spi
+
+--DRAWBACKS
+
+The primary disadvantages of the uart protocol is that all connected devices must be properly calibrated with the same baud rate for it to work, and that overall it is slower due to featuring a start and stop bit per packet. Not to mention, the uart protocol can usually only support communication between two devices, otherwise the risk of bus contention is presented. 
+
+The spi protocol's main disadvantage is that it each slave device requires 4 connections to the master device, which may get complicated in the case of multiple slave devices.  
+
 

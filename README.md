@@ -44,25 +44,35 @@ The spi protocol's main disadvantage is that it each slave device requires 4 con
 
 THe i2c protocol differs in the fact that each slave device is automatically synchronized with the master's clock signal, sent packets are faster due to not having a stop/start bit and that multiple devices can be connected, without bus contention.
 
---SDA
+## SDA
 Line which sends actual data//data destination, ack bit, r/w bit
---Scl
+## Scl
 line which features the master devices clock signal.
 
---Master vs slave devices
+## Master vs slave devices
 The main difference between master and slave devices is that master devices generate the clock signal for all connected slave devices and that slave devices can delay the reading/writing of said clock signal.
 
 
+## Difference between protocol frames
+Uart frames or packets feature a start and stop bit, one byte of transmitted data,and sometimes a parity bit for error checking.
+I2c frames on the otherhand feature slave addressing data, A read/write bit and An ack bit, along with a standard transmitted byte 
 
-
--- Trigger mode
+## Trigger mode
 Due to the each packet being signaled by a high to low transistion, falling edge triggering is the best option for visualizing i2c packets.
 
 
--- (advanced question) : 
+## (advanced question) : 
 given that you had 2 microbits, both configured as the master device, and you connected both of their SDA and Scl lines together, how would they communicate?
 
 because multiple slave devices can be connected to a masters sda and scl lines, the slave devices/peripherals of both microbits would become accessable by both of the master microbits. Also, the two master devices would not be able to communicate with each other so if one wanted to transfer data between the two masters it would need to be through some intermediary peripheral device or register.
+
+
+## [I2c write number]()
+
+[picture]()
+
+Description:
+Writes a number using the i2c communication protocol to a random slave device address.
 
 
 

@@ -69,17 +69,16 @@ because multiple slave devices can be connected to a masters sda and scl lines, 
 
 ## [I2c write number](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-O11WL1D/blob/master/write_number.js)
 
-[picture]()
-
 Description:
 Writes a number using the i2c communication protocol to a random slave device address.
 
 A) : We captured a some of the address frame, and some of the sent data 
 
-B) : when nothing is connected, the i2c write function transmits the signal as usual. In some systems the ack bit indicates that a slave device did not recieve a signal or doesn't know how to parse data, but in our testing we did not observe.
+B) : when nothing is connected, the i2c write function transmits the signal as usual. In some systems the ack bit indicates that a slave device did not recieve a signal or doesn't know how to parse data, and that a retransmission should occur. In our testing, a retransmission was not observed.
 
 c) : The only difference between the three addresses captured patterns is the slave address near the start of the capture. 
 
 ## [I2c_different_address_practice](https://github.com/Introduction-to-Computer-Engineering/final-project-assignment-8-week-13-O11WL1D/blob/master/i2c_practice.js)
 
 <-------Results are indicated in the programs comments --->
+
